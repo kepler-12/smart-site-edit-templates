@@ -1,0 +1,37 @@
+{
+  "name": "smart-site-edit-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make": "node ./makeTemplate.js"
+  },
+  "bin": {
+    "createTemplate": "./makeTemplate.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.1.1",
+    "apollo-client": "^2.0.3",
+    "apollo-client-preset": "^1.0.3",
+    "apollo-link-http": "^1.2.0",
+    "camelcase": "^4.1.0",
+    "cheerio": "^1.0.0-rc.2",
+    "command-line-args": "^4.0.7",
+    "command-line-commands": "^2.0.1",
+    "fs": "0.0.1-security",
+    "graphql": "^0.11.7",
+    "graphql-tag": "^2.5.0",
+    "node-fetch": "^1.7.3",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "alert-node": "^0.2.1",
+    "directory-watcher": "^2.0.2",
+    "filewatcher": "^3.0.1",
+    "node-notifier": "^5.1.2",
+    "watch": "^1.0.2"
+  }
+}
